@@ -1,5 +1,5 @@
 # ÉTAPE 1: Image de base Python. Utilisation d'une version 'slim' pour rester léger.
-FROM python:3.11-slim-buster
+FROM python:3.11-slim-bookworm
 
 # ÉTAPE 2: Installer les dépendances système. 
 # 'ffmpeg' est absolument nécessaire pour Whisper afin de lire les fichiers audio/vidéo.
