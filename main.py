@@ -54,11 +54,11 @@ if __name__ == "__main__":
     # au dossier /app/input/ du conteneur.
 
     # L'audio doit être placé dans le conteneur sous ce nom :
-    CHEMIN_FICHIER_AUDIO_DANS_CONTENEUR = "/app/input/Fichier2.mp3"
+    CHEMIN_FICHIER_AUDIO_DANS_CONTENEUR = "/app/data/Everyday Conversation In Slow French Super Easy French.mp3"
     
     # Le fichier de sortie sera créé ici (dans le conteneur).
     # Il apparaîtra dans votre dossier local si vous utilisez un autre volume pour la sortie.
-    CHEMIN_FICHIER_TXT_DANS_CONTENEUR = "/app/output/transcription.txt"
+    CHEMIN_FICHIER_TXT_DANS_CONTENEUR = "/app/retranscription/Everyday Conversation In Slow French Super Easy French.txt"
     
     NOM_MODELE = "small"
 

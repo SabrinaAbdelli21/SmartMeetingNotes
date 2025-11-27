@@ -25,8 +25,8 @@ COPY main.py .
 
 # ÉTAPE 7: Créer les dossiers qui serviront de points de montage pour les VOLUMES.
 # C'est une bonne pratique pour clairement définir les I/O.
-RUN mkdir -p /app/input
-RUN mkdir -p /app/output
+COPY data /app/data
+RUN mkdir -p /app/retranscription/
 
 # ÉTAPE 8: Commande par défaut à exécuter lorsque le conteneur démarre.
 CMD ["python", "main.py"]
