@@ -1,5 +1,4 @@
 # 🧠 SmartMeetingNotes
-## Présentation
 
 **SmartMeetingNotes** est un projet permettant de **transcrire des fichiers audio en texte** en utilisant le modèle`Whisper`de OpenAI. 
 Le script est conçu pour être utilisé dans un **conteneur Docker**, avec des volumes pour mapper les fichiers audio et les fichiers de sortie entre le conteneur et votre machine locale.
